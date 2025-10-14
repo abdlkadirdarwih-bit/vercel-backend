@@ -85,7 +85,7 @@ app.post("/api/auth/register", async (req, res) => {
   res.json({ message: "User created" });
 });
 app.get("/", (req, res) => {
-  res.send("Backend is working ✅");
+  res.send("Backend is Working ✅");
 });
 
 // 🚀 Start Server
