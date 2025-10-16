@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(cors());
 // app.use(cors({
-//   origin: "https://vercel-frontend-alpha-dun.vercel.app", // your frontend domain
+//   origin: "https://vercel-frontend-h2ep.vercel.app/", // your frontend domain
 //   methods: ["GET", "POST", "PUT", "DELETE"],
 //   credentials: true
 // }));
@@ -85,7 +85,7 @@ app.post("/api/auth/register", async (req, res) => {
   res.json({ message: "User created" });
 });
 app.get("/", (req, res) => {
-  res.send("Backend is working ✅");
+  res.send("Backend is workingb ✅");
 });
 
 // 🚀 Start Server
